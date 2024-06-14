@@ -13,4 +13,4 @@ app.use(express.static("public"));
 app.use(photoRoute);
 app.use(productRoute);
 
-app.listen(5000, ()=> console.log('Server Up and Running on port 5000'));
+app.listen(5000, '0.0.0.0', ()=> console.log('Server Up and Running on port 5000'));
